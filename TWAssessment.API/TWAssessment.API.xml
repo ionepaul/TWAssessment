@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TWAssessment.API</name>
+    </assembly>
+    <members>
+        <member name="M:TWAssessment.API.Controllers.UsersController.GetUsers(System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            Filters data from https://run.mocky.io/v3/9a227fec-2ab2-43b5-9584-3cb455cc5a40 based on specified parameters
+            </summary>
+            <param name="age">Filter data based on provided age</param>
+            <param name="city">Filter data based on provided city</param>
+            <param name="tag">Tags separated by comma, if tags are found in data description it will be encapsulated in an italic HTML tag.</param>
+            <returns>
+            - All items if the request has no parameters.
+            - A filtered subset based on filter parameters and the maximum and minimum age of all items and an array with all the cities of all items
+            - Add html tags on item description to mark the words provided in tag parameter
+            </returns>
+        </member>
+    </members>
+</doc>
